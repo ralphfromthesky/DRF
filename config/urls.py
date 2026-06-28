@@ -26,5 +26,6 @@ urlpatterns = [
     path('products/', include('products.urls')),
     path('products_api/', include('products.products.api_urls')),
     path('data/', include('data.urls.urls')),
-    path('data_api/', include('data.urls.api_urls'))
+    path('data_api/', include('data.urls.api_urls')),
+    path('new_employee/', include('employee.urls.urls'))
 ]
