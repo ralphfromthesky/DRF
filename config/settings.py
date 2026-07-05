@@ -44,7 +44,8 @@ INSTALLED_APPS = [
     'settings',
     'products',
     'data',
-    'employee'
+    'employee',
+    'inventory'
 ]
 
 MIDDLEWARE = [
